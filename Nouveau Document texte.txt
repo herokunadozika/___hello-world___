@@ -1,8 +1,0 @@
-@echo off
-:: suprime les source 
-
-:: Telecharge fichier m3u https://d.tousecurity.com/france-liste-iptv-gratuit-04-09-2023/ dans "m3u fr source"
-
-:: Combine dans un fihcier 
-copy /b "%CD%\France\*.3mu" playlistFR.m3u
-
